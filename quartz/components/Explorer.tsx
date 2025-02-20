@@ -84,7 +84,7 @@ export default ((userOpts?: Partial<Options>) => {
     constructFileTree(allFiles)
     return (
       <div class={classNames(displayClass, "explorer")}>
-        <button
+        {/* <button
           type="button"
           id="explorer"
           data-behavior={opts.folderClickBehavior}
@@ -113,7 +113,7 @@ export default ((userOpts?: Partial<Options>) => {
             <ExplorerNode node={fileTree} opts={opts} fileData={fileData} />
             <li id="explorer-end" />
           </ul>
-        </div>
+        </div> */}
       </div>
     )
   }

@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "The End of the World",
+    pageTitle: "???",
     enableSPA: true,
     enablePopovers: false,
     analytics: {
@@ -38,14 +38,14 @@ const config: QuartzConfig = {
           highlight: "rgba(143, 159, 169, 0.15)",
         },
         darkMode: {
-          light: "#161618",
-          lightgray: "#393639",
-          gray: "#646464",
-          darkgray: "#d4d4d4",
-          dark: "#ebebec",
-          secondary: "#7b97aa",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
+          light: "#2e3440", //page bg
+          lightgray: "#727f9e", //border
+          gray: "#ffd700", // graph links, heavy borders
+          darkgray: "#eceff4", // body text
+          dark: "#ffd700", // header text, icons
+          secondary: "#00ffff", // link color, current node
+          tertiary: "#ff00ff", // hover states, visited notes
+          highlight: "rgba(119, 194, 190, 0.15)", // code and link bg
         },
       },
     },

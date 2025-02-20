@@ -72,23 +72,23 @@
   &[data-callout="question"] {
     --color: #dba642;
     --border: #dba64244;
-    --bg: #dba64210;
+    --bg: #dba54200;
     --callout-icon: var(--callout-icon-question);
   }
 
   &[data-callout="warning"] {
-    --color: #db8942;
+    --color: rgb(255, 255, 255);
     --border: #db894244;
-    --bg: #db894210;
+    --bg: #db894280;
     --callout-icon: var(--callout-icon-warning);
   }
 
   &[data-callout="failure"],
   &[data-callout="danger"],
   &[data-callout="bug"] {
-    --color: #db4242;
+    --color: #f04444;
     --border: #db424244;
-    --bg: #db424210;
+    --bg: #db424244;
     --callout-icon: var(--callout-icon-failure);
   }
 
