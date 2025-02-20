@@ -48,6 +48,7 @@ const config: QuartzConfig = {
           secondary: "#00ffff", // link color, current node
           tertiary: "#ff00ff", // hover states, visited notes
           highlight: "rgba(119, 194, 190, 0.15)", // code and link bg
+          textHighlight: "#fff23688",
         },
       },
     },
